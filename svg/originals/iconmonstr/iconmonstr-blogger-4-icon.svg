@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- The icon can be used freely in both personal and commercial projects with no attribution required, but always appreciated. 
+You may NOT sub-license, resell, rent, redistribute or otherwise transfer the icon without express written permission from iconmonstr.com -->
+
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+
+	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+
+<path id="blogger-circle-icon" d="M205.183,215.45c0-7.257,5.882-13.14,13.141-13.14h40.094c7.257,0,13.141,5.883,13.141,13.14
+
+	c0,7.256-5.884,13.139-13.141,13.139h-40.094C211.064,228.589,205.183,222.706,205.183,215.45z M298.545,282.504h-80.222
+
+	c-7.259,0-13.141,5.885-13.141,13.139c0,7.259,5.882,13.143,13.141,13.143h80.222c7.257,0,13.141-5.884,13.141-13.143
+
+	C311.686,288.389,305.802,282.504,298.545,282.504z M462.417,256c0,113.771-92.229,206-206,206s-206-92.229-206-206
+
+	s92.229-206,206-206S462.417,142.229,462.417,256z M368.514,239.688c0-6.005-4.867-10.874-10.872-10.874h-17.896
+
+	c-6.005,0-10.872-4.869-10.872-10.874v-4.757c0-37.034-30.022-67.055-67.058-67.055h-46.439c-37.034,0-67.056,30.021-67.056,67.055
+
+	v85.632c0,37.033,30.021,67.056,67.056,67.056h86.083c37.036,0,67.055-30.022,67.055-67.056V239.688z"/>
+
+</svg>
+

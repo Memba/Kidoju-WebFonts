@@ -30,11 +30,10 @@ module.exports = function(grunt){
                     fontHeight: 1024,
                     descent: 128,
                     ascent: 896,
-                    startCodepoint: 0xF101, //default
+                    startCodepoint: 0xF101, //http://www.fileformat.info/info/unicode/block/private_use_area/utf8test.htm
                     codepoints: {
-                        'home': 0x2604,
-                        'star': 0x2605,
-                        'star-o': 0x2606
+                        'star': 0x2605, //http://www.fileformat.info/info/unicode/char/2605/index.htm
+                        'star-o': 0x2606 //http://www.fileformat.info/info/unicode/char/2606/index.htm
                     },
                     templateOptions: {
                         baseClass: 'kf',
