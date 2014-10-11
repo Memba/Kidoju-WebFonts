@@ -21,7 +21,7 @@ module.exports = function(grunt){
         webfont: {
             icons: {
                 src: 'svg/*.svg',
-                dest: 'dist/fonts',
+                dest: 'temp/fonts',
                 options: {
                     font: 'kidoju',
                     stylesheet: 'less',
@@ -31,10 +31,9 @@ module.exports = function(grunt){
                     descent: 128,
                     ascent: 896,
                     startCodepoint: 0xF101, //default
-                    codePoints: {
+                    codepoints: {
                         'home': 0x2604,
                         'star': 0x2605,
-                        //'star2': 0x2606,
                         'star-o': 0x2606
                     },
                     templateOptions: {
