@@ -53,7 +53,7 @@ has an align tool at the bottom right corner which offers the option to **Align 
 
 ## Origin of icons and licensing
 
-All icons except social sharing icons have been licensed from [Incors](http://www.iconexperience.com/o_collection/license/).
-
+All icons except social sharing icons are licensed from [Incors](http://www.iconexperience.com/o_collection/license/).
+Social sharing icons are licensed from [@iconmonstr](http://iconmonstr.com/license/)
 
 Copyright (c) 2014-2015 Memba Sarl. All rights reserved.
