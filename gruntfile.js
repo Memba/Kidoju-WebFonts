@@ -21,9 +21,10 @@ module.exports = function(grunt){
         webfont: {
             icons: {
                 src: 'svg/*.svg',
-                dest: 'temp/fonts',
+                dest: 'dist/fonts',
                 options: {
                     font: 'kidoju',
+                    hashes: false, //do not add random string at the end of the font file names (used to avoid caching when changing version)
                     stylesheet: 'less',
                     engine: 'node',
                     //ie7: true, //otherwise Webstorm cannot generate css from less

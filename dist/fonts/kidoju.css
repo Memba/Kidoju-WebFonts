@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "kidoju";
+  src: url("kidoju.eot");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "kidoju";
+  src: url("kidoju.eot");
+  src: url("kidoju.eot?#iefix") format("embedded-opentype"), url("kidoju.woff") format("woff"), url("kidoju.ttf") format("truetype"), url("kidoju.svg?#kidoju") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.kf {
+  font-family: "kidoju";
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  text-decoration: inherit;
+  text-transform: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.kf-android:before {
+  content: "\f101";
+}
+.kf-apple:before {
+  content: "\f102";
+}
+.kf-blog:before {
+  content: "\f103";
+}
+.kf-signout:before {
+  content: "\f104";
+}
+.kf-facebook:before {
+  content: "\f105";
+}
+.kf-feed:before {
+  content: "\f106";
+}
+.kf-search-adv:before {
+  content: "\f107";
+}
+.kf-google:before {
+  content: "\f108";
+}
+.kf-home:before {
+  content: "\f109";
+}
+.kf-kidoju:before {
+  content: "\f10a";
+}
+.kf-linkedin:before {
+  content: "\f10b";
+}
+.kf-signin:before {
+  content: "\f10c";
+}
+.kf-pinterest:before {
+  content: "\f10d";
+}
+.kf-create:before {
+  content: "\f10e";
+}
+.kf-help:before {
+  content: "\f10f";
+}
+.kf-star:before {
+  content: "\2605";
+}
+.kf-star-o:before {
+  content: "\2606";
+}
+.kf-stumbleupon:before {
+  content: "\f110";
+}
+.kf-twitter:before {
+  content: "\f111";
+}
+.kf-windows:before {
+  content: "\f112";
+}
+.kf-youtube:before {
+  content: "\f113";
+}
