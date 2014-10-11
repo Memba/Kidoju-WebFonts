@@ -5,11 +5,9 @@
 	 id="Layer_1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1024px" height="1024px"
 	 viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
-<title>plus icon</title>
-<desc>plus icon from the IconExperience.com O-Collection. Copyright by INCORS GmbH (www.incors.com).</desc>
 <g>
-	<path id="curve0" fill="#252525" d="M96,384h288V96c0-17.6,14.4-32,32-32h192c17.6,0,32,14.4,32,32v288h288c17.6,0,32,14.4,32,32
-		v192c0,17.6-14.4,32-32,32H640v288c0,17.6-14.4,32-32,32H416c-17.6,0-32-14.4-32-32V640H96c-17.6,0-32-14.4-32-32V416
+	<path id="curve0" d="M96,384h288V96c0-17.6,14.4-32,32-32h192c17.6,0,32,14.4,32,32v288h288c17.6,0,32,14.4,32,32v192
+		c0,17.6-14.4,32-32,32H640v288c0,17.6-14.4,32-32,32H416c-17.6,0-32-14.4-32-32V640H96c-17.6,0-32-14.4-32-32V416
 		C64,398.4,78.4,384,96,384z"/>
 </g>
 </svg>

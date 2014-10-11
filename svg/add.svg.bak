@@ -2,12 +2,10 @@
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
-	 id="Layer_1" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+	 id="Layer_1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1024px" height="1024px"
 	 viewBox="0 0 1024 1024" enable-background="new 0 0 1024 1024" xml:space="preserve">
-<title>add icon</title>
-<desc>add icon from the IconExperience.com O-Collection. Copyright by INCORS GmbH (www.incors.com).</desc>
-<path fill="#252525" d="M512,64C264.6,64,64,264.6,64,512s200.6,448,448,448s448-200.6,448-448S759.4,64,512,64z M800,608H608v192
+<path d="M512,64C264.6,64,64,264.6,64,512s200.6,448,448,448s448-200.6,448-448S759.4,64,512,64z M800,608H608v192
 	c0,17.6-14.4,32-32,32H448c-17.6,0-32-14.4-32-32V608H224c-17.6,0-32-14.4-32-32V448c0-17.6,14.4-32,32-32h192V224
 	c0-17.6,14.4-32,32-32h128c17.6,0,32,14.4,32,32v192h192c17.6,0,32,14.4,32,32v128C832,593.6,817.6,608,800,608z"/>
 </svg>
