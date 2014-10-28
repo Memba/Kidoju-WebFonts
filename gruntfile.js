@@ -27,12 +27,13 @@ module.exports = function(grunt){
                     hashes: false, //do not add random string at the end of the font file names (used to avoid caching when changing version)
                     stylesheet: 'less',
                     engine: 'node',
-                    //ie7: true, //otherwise Webstorm cannot generate css from less
+                    //ie7: true, //Commented otherwise Webstorm cannot generate css from less
                     fontHeight: 1024,
                     descent: 128,
                     ascent: 896,
                     startCodepoint: 0xF101, //http://www.fileformat.info/info/unicode/block/private_use_area/utf8test.htm
                     codepoints: {
+                        //TODO: maybe we should specify codepoints for all icons otherwise adding new icons might change the correspondence
                         'star': 0x2605, //http://www.fileformat.info/info/unicode/char/2605/index.htm
                         'star-o': 0x2606 //http://www.fileformat.info/info/unicode/char/2606/index.htm
                     },
