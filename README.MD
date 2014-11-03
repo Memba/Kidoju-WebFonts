@@ -1,5 +1,7 @@
 # Kidoju Web Fonts
 
+[![devDependency Status](https://david-dm.org/Memba/Kidoju-WebFonts/dev-status.svg)](https://david-dm.org/Memba/Kidoju-WebFonts#info=devDependencies)
+
 >  Some icons we needed for the Kidoju platform.
 
 ## Why Kidoju Web Fonts?
