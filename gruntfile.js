@@ -48,11 +48,17 @@ module.exports = function(grunt){
                             case 'svg/door_exit.svg':
                                 name = 'signout';
                                 break;
+                            case 'svg/eye.svg':
+                                name = 'view';
+                                break;
                             case 'svg/find_again.svg':
                                 name = 'search-adv';
                                 break;
                             case 'svg/log_in.svg':
                                 name = 'signin';
+                                break;
+                            case 'svg/message.svg':
+                                name = 'comment';
                                 break;
                             case 'svg/plus.svg':
                                 name = 'create';
@@ -62,6 +68,9 @@ module.exports = function(grunt){
                                 break;
                             case 'svg/star2.svg':
                                 name = 'star-o';
+                                break;
+                            case 'svg/trophy.svg':
+                                name = 'score';
                                 break;
                             default: //home, star
                                 name = fileName.replace(/^svg\/(\w+).svg$/, '$1');
