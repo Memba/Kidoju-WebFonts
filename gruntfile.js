@@ -45,6 +45,9 @@ module.exports = function(grunt){
                     rename: function(fileName) {
                         var name;
                         switch(fileName) {
+                            case 'svg/calendar_clock.svg':
+                                name = 'datetime';
+                                break;
                             case 'svg/door_exit.svg':
                                 name = 'signout';
                                 break;
