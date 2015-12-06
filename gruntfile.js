@@ -60,6 +60,9 @@ module.exports = function(grunt){
                             case 'svg/log_in.svg':
                                 name = 'signin';
                                 break;
+                            case 'svg/megaphone.svg':
+                                name = 'report';
+                                break;
                             case 'svg/message.svg':
                                 name = 'comment';
                                 break;
