@@ -218,8 +218,13 @@
 }
 
 
-.kf-youtube:before {
+.kf-uservoice:before {
 	content:"\f11a";
+}
+
+
+.kf-youtube:before {
+	content:"\f11b";
 }
 
 		</style>
@@ -283,6 +288,8 @@
 			
 				<div class="icons__item" data-name="user"><i class="kf kf-user"></i> kf-user</div>
 			
+				<div class="icons__item" data-name="uservoice"><i class="kf kf-uservoice"></i> kf-uservoice</div>
+			
 				<div class="icons__item" data-name="youtube"><i class="kf kf-youtube"></i> kf-youtube</div>
 			
 		</div>
@@ -301,7 +308,7 @@
 				e = e || window.event;
 				var name = e.target.getAttribute('data-name') || e.target.parentNode.getAttribute('data-name');
 				document.getElementById('name').innerHTML = name;
-				document.getElementById('name2').innerHTML = name;
+				
 			}
 		})();
 		</script>
