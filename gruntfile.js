@@ -57,6 +57,9 @@ webfont: {
                     case 'svg/find_again.svg':
                         name = 'search-adv';
                         break;
+                    case 'svg/lifebelt.svg':
+                        name = 'support';
+                        break;
                     case 'svg/log_in.svg':
                         name = 'signin';
                         break;
