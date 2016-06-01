@@ -34,9 +34,19 @@ webfont: {
             ascent: 896,
             startCodepoint: 0xF101, // http://www.fileformat.info/info/unicode/block/private_use_area/utf8test.htm
             codepoints: {
-                // TODO: maybe we should specify codepoints for all icons otherwise adding new icons might change the correspondence
+                // The following are Arial and other font icons (especially for Rating widget)
                 'star': 0x2605, // http://www.fileformat.info/info/unicode/char/2605/index.htm
-                'star-o': 0x2606 // http://www.fileformat.info/info/unicode/char/2606/index.htm
+                'star-o': 0x2606, // http://www.fileformat.info/info/unicode/char/2606/index.htm
+                // The following are Kendo UI mobile icons - see http://docs.telerik.com/kendo-ui/controls/hybrid/styles/icons
+                'home': 0xe212,
+                'search': 0xe21e,
+                'settings': 0xe20f,
+                // The following are other icons we use in kidoju.mobile.less
+                'drawer': 0xe300,
+                'history': 0xe305,
+                'previous': 0xe30a,
+                'next': 0xe310,
+                'sync': 0xe315
             },
             // relativeFontPath: '',
             templateOptions: {
@@ -50,6 +60,9 @@ webfont: {
                     case 'svg/calendar_clock.svg':
                         name = 'datetime';
                         break;
+                    case 'svg/cloud_refresh.svg':
+                        name = 'sync';
+                        break;
                     case 'svg/door_exit.svg':
                         name = 'signout';
                         break;
@@ -59,17 +72,32 @@ webfont: {
                     case 'svg/find_again.svg':
                         name = 'search-adv';
                         break;
+                    case 'svg/gearwheel.svg':
+                        name = 'settings';
+                        break;
+                    case 'svg/history2.svg':
+                        name = 'history';
+                        break;
                     case 'svg/lifebelt.svg':
                         name = 'support';
                         break;
                     case 'svg/log_in.svg':
                         name = 'signin';
                         break;
+                    case 'svg/magnifying_glass.svg':
+                        name = 'search';
+                        break;
                     case 'svg/megaphone.svg':
                         name = 'report';
                         break;
                     case 'svg/message.svg':
                         name = 'comment';
+                        break;
+                    case 'svg/navigate_left.svg':
+                        name = 'previous';
+                        break;
+                    case 'svg/navigate_right.svg':
+                        name = 'next';
                         break;
                     case 'svg/plus.svg':
                         name = 'create';
