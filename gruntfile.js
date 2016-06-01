@@ -38,6 +38,7 @@ webfont: {
                 'star': 0x2605, // http://www.fileformat.info/info/unicode/char/2605/index.htm
                 'star-o': 0x2606 // http://www.fileformat.info/info/unicode/char/2606/index.htm
             },
+            // relativeFontPath: '',
             templateOptions: {
                 baseClass: 'kf',
                 classPrefix: 'kf-',
