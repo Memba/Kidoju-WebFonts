@@ -46,7 +46,8 @@ webfont: {
                 'history': 0xe305,
                 'previous': 0xe30a,
                 'next': 0xe310,
-                'sync': 0xe315
+                'submit': 0xe315,
+                'sync': 0xe31a
             },
             // relativeFontPath: '',
             templateOptions: {
@@ -57,6 +58,9 @@ webfont: {
             rename: function(fileName) {
                 var name;
                 switch(fileName) {
+                    case 'svg/auction_hammer.svg':
+                        name = 'submit';
+                        break;
                     case 'svg/calendar_clock.svg':
                         name = 'datetime';
                         break;
