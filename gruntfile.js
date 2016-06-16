@@ -38,9 +38,9 @@ webfont: {
                 'star': 0x2605, // http://www.fileformat.info/info/unicode/char/2605/index.htm
                 'star-o': 0x2606, // http://www.fileformat.info/info/unicode/char/2606/index.htm
                 // The following are Kendo UI mobile icons - see http://docs.telerik.com/kendo-ui/controls/hybrid/styles/icons
-                'home': 0xe212,
-                'search': 0xe21e,
-                'settings': 0xe20f,
+                'home': 0xe0dd,
+                'search': 0xe0e9,
+                'settings': 0xe0da,
                 // The following are other icons we use in kidoju.mobile.less
                 'drawer': 0xe300,
                 'history': 0xe305,
