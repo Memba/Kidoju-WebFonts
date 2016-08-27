@@ -1,7 +1,7 @@
 {
   "name": "kidoju.webfonts",
   "description": "Web fonts for the Kidoju platform",
-  "version": "0.2.28",
+  "version": "0.2.33",
   "author": "Memba Sarl",
   "copyright": "Copyright ©2013-2016 Memba® Sarl. All rights reserved.",
   "license": "GPL-3.0",
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-webfont": "^1.5.0"
+    "grunt-webfont": "^1.6.0"
   },
   "engines": {
     "node": ">=0.10.0"
