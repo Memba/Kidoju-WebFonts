@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="Layer_1" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" image-rendering="optimizeQuality"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1024 1024"
+	 style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+<path d="M128,64h768c35.3,0,64,28.8,64,64v512c0,35.2-28.8,64-64,64H544v-50.7l13.3-13.3H896V128H128v160c-35.3,0-64,28.7-64,64V128
+	C64,92.7,92.7,64,128,64z"/>
+<path d="M704,160h32v448h-32V160z M192,160h32v128h-32V160z M256,160h64v128h-64V160z M352,160h32v128h-32V160z M576,160h-32v136.6
+	c19.1,11.1,32,31.8,32,55.4V160z M448,160h64v128h-64V160z M768,160h64v446.2h-64V160z M608,160h32v448h-32V160z M128,320h384
+	c17.6,0,32,14.4,32,32v242.7c0,8.9-3.1,16.4-9.4,22.7l-13.2,13.2c-6.3,6.3-9.4,13.8-9.4,22.7V896c0,35.2-28.8,64-64,64H192
+	c-35.2,0-64-28.7-64-64V653.3c0-8.9-3.1-16.4-9.4-22.7l-13.2-13.2c-6.3-6.3-9.4-13.8-9.4-22.7V352C96,334.4,110.4,320,128,320z
+	 M160,384v192h320V384H160z M192,640v64h64v-64H192z M384,832v64h64v-64H384z M288,832v64h64v-64H288z M192,832v64h64v-64H192z
+	 M384,736v64h64v-64H384z M288,736v64h64v-64H288z M192,736v64h64v-64H192z M384,640v64h64v-64H384z M288,640v64h64v-64H288z"/>
+</svg>
