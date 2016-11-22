@@ -45,12 +45,26 @@ module.exports = function(grunt){
                         // The following are other icons we use in kidoju.mobile.less
                         'drawer': 0xe300,
                         'history': 0xe305,
-                        'first': 0xe309,
-                        'previous': 0xe30a,
-                        'next': 0xe310,
-                        'last': 0xe311,
-                        'submit': 0xe315,
-                        'sync': 0xe31a
+                        'first': 0xe310,
+                        'previous': 0xe311,
+                        'next': 0xe312,
+                        'last': 0xe313,
+                        'submit': 0xe320,
+                        'sync': 0xe325,
+                        // The following are social icons
+                        // android
+                        // apple
+                        // blog/blogger
+                        'facebook': 0xe510,
+                        // feed
+                        'google': 0xe515,
+                        'linkedin': 0xe520,
+                        'live': 0xe525,
+                        // pinterest
+                        // stumbleupon
+                        'twitter': 0xe550
+                        // uservoice
+                        // youtube
                     },
                     // relativeFontPath: '',
                     templateOptions: {
