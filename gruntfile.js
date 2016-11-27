@@ -50,7 +50,8 @@ module.exports = function(grunt){
                         'next': 0xe312,
                         'last': 0xe313,
                         'submit': 0xe320,
-                        'sync': 0xe325,
+                        'score': 0xe330,
+                        'sync': 0xe340,
                         // The following are social icons
                         // android
                         // apple
