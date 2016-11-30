@@ -52,6 +52,7 @@ module.exports = function(grunt){
                         'submit': 0xe320,
                         'score': 0xe330,
                         'sync': 0xe340,
+                        'ear': 0xe360,
                         // The following are social icons
                         // android
                         // apple
