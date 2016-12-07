@@ -44,7 +44,9 @@ module.exports = function(grunt){
                         'scan': 0xe0db,
                         // The following are other icons we use in kidoju.mobile.less
                         'drawer': 0xe300,
+                        'summary': 0xe303,
                         'history': 0xe305,
+                        'play': 0xe309,
                         'first': 0xe310,
                         'previous': 0xe311,
                         'next': 0xe312,
@@ -86,6 +88,9 @@ module.exports = function(grunt){
                             case 'svg/cloud_refresh.svg':
                                 name = 'sync';
                                 break;
+                            case 'svg/document_notebook.svg':
+                                name = 'summary';
+                                break;
                             case 'svg/door_exit.svg':
                                 name = 'signout';
                                 break;
@@ -109,6 +114,9 @@ module.exports = function(grunt){
                                 break;
                             case 'svg/magnifying_glass.svg':
                                 name = 'search';
+                                break;
+                            case 'svg/media_play.svg':
+                                name = 'play';
                                 break;
                             case 'svg/megaphone.svg':
                                 name = 'report';
