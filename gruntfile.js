@@ -66,9 +66,24 @@ module.exports = function(grunt){
                         'live': 0xe525,
                         // pinterest
                         // stumbleupon
-                        'twitter': 0xe550
+                        'twitter': 0xe550,
                         // uservoice
                         // youtube
+                        // The following are math input icons
+                        // We use unicode where possible - http://xahlee.info/comp/unicode_math_operators.html
+                        'sqrt': 0x221a,
+                        'cubert': 0x221b,
+                        'nthroot': 0x221c,
+                        // Otherwise we use custom unicode ranges
+                        'frac': 0xe700,
+                        'pow': 0xe701,
+                        'pow2': 0xe702,
+                        'pow3': 0xe703,
+                        'subscript': 0xe704,
+                        //...
+                        'sin': 0xe710,
+                        'cos': 0xe711,
+                        'tan': 0xe712
                     },
                     // relativeFontPath: '',
                     templateOptions: {
