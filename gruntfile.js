@@ -97,11 +97,20 @@ module.exports = function(grunt){
                             case 'svg/auction_hammer.svg':
                                 name = 'submit';
                                 break;
+                            case 'svg/beaker2.svg':
+                                name = 'chemistry';
+                                break;
                             case 'svg/calendar_clock.svg':
                                 name = 'datetime';
                                 break;
+                            case 'svg/calculator.svg':
+                                name = 'basic';
+                                break;
                             case 'svg/cloud_refresh.svg':
                                 name = 'sync';
+                                break;
+                            case 'svg/dice.svg':
+                                name = 'statistics';
                                 break;
                             case 'svg/document_notebook.svg':
                                 name = 'summary';
@@ -121,11 +130,17 @@ module.exports = function(grunt){
                             case 'svg/history2.svg':
                                 name = 'history';
                                 break;
+                            case 'svg/keyboard_key_0.svg':
+                                name = 'keypad';
+                                break;
                             case 'svg/lifebelt.svg':
                                 name = 'support';
                                 break;
                             case 'svg/log_in.svg':
                                 name = 'signin';
+                                break;
+                            case 'svg/logic_and.svg':
+                                name = 'logic';
                                 break;
                             case 'svg/magnifying_glass.svg':
                                 name = 'search';
@@ -162,6 +177,9 @@ module.exports = function(grunt){
                                 break;
                             case 'svg/star2.svg':
                                 name = 'star-o';
+                                break;
+                            case 'svg/text_field.svg':
+                                name = 'textbox';
                                 break;
                             case 'svg/trophy.svg':
                                 name = 'score';
