@@ -34,15 +34,39 @@ module.exports = function(grunt){
                     ascent: 896,
                     startCodepoint: 0xf101, // http://www.fileformat.info/info/unicode/block/private_use_area/utf8test.htm
                     codepoints: {
-                        // The following are Arial and other font icons (especially for Rating widget)
+                        /**********************************************
+                         * UNICODE match
+                         **********************************************/
+                        // MathInput - http://xahlee.info/comp/unicode_math_operators.html
+                        'left-par': 0x0028,
+                        'right-par': 0x0029,
+                        'left-sb': 0x005b,
+                        'right-sb': 0x005d,
+                        'left-cb': 0x007b,
+                        'right-cb': 0x007d,
+                        'left-vl': 0x009b, // <-- wrong
+                        'right-vl': 0x009d,
+                        'pm': 0x00b1, // plusminus
+                        'alpha': 0x03b1,
+                        'omega-mag': 0x03a9,
+                        'sqrt': 0x221a,
+                        'cbrt': 0x221b,
+                        'nthroot': 0x221c,
+                        'keypad': 0x2328,
+                        'backspace': 0x232b,
+                        'dice': 0x2680,
+                        'logic': 0x26ad,
+                        // Rating
                         'star': 0x2605, // http://www.fileformat.info/info/unicode/char/2605/index.htm
                         'star-o': 0x2606, // http://www.fileformat.info/info/unicode/char/2606/index.htm
-                        // The following are Kendo UI mobile icons - see http://docs.telerik.com/kendo-ui/controls/hybrid/styles/icons
+                        /**********************************************
+                         * UNICODE custom
+                         **********************************************/
+                        // Kidoju-WebApp and Kidoju-Mobile
                         'home': 0xe0dd,
                         'search': 0xe0e9,
                         'settings': 0xe0da,
                         'scan': 0xe0db,
-                        // The following are other icons we use in kidoju.mobile.less
                         'drawer': 0xe300,
                         'summary': 0xe303,
                         'history': 0xe305,
@@ -55,35 +79,43 @@ module.exports = function(grunt){
                         'score': 0xe330,
                         'sync': 0xe340,
                         'ear': 0xe360,
-                        // The following are social icons
-                        // android
-                        // apple
-                        // blog/blogger
+                        // Social
                         'facebook': 0xe510,
-                        // feed
                         'google': 0xe515,
                         'linkedin': 0xe520,
                         'live': 0xe525,
-                        // pinterest
-                        // stumbleupon
                         'twitter': 0xe550,
-                        // uservoice
-                        // youtube
-                        // The following are math input icons
-                        // We use unicode where possible - http://xahlee.info/comp/unicode_math_operators.html
-                        'sqrt': 0x221a,
-                        'cubert': 0x221b,
-                        'nthroot': 0x221c,
-                        // Otherwise we use custom unicode ranges
-                        'frac': 0xe700,
-                        'pow': 0xe701,
-                        'pow2': 0xe702,
-                        'pow3': 0xe703,
-                        'subscript': 0xe704,
-                        //...
-                        'sin': 0xe710,
-                        'cos': 0xe711,
-                        'tan': 0xe712
+                        // MathInput
+                        'field': 0xe700,
+                        'calculator': 0xe701,
+                        'fx': 0xe702,
+                        'chemistry': 0xe703,
+                        // ...
+                        'frac': 0xe710,
+                        'subscript': 0xe711,
+                        // ...
+                        'pow': 0xe721,
+                        'pow2': 0xe722,
+                        'pow3': 0xe723,
+                        'log': 0xe726,
+                        'log10': 0xe727,
+                        'ln': 0xe728,
+                        // ...
+                        'sin': 0xe730,
+                        'cos': 0xe731,
+                        'tan': 0xe732,
+                        'arcsin': 0xe733,
+                        'arccos': 0xe734,
+                        'arctan': 0xe735,
+                        // ...
+                        'derivative': 0xe740,
+                        'partial': 0xe741,
+                        'int': 0xe742, // TODO standard unicode
+                        'sum': 0xe743, // TODO standard unicode
+                        'prod': 0xe744, // TODO standard unicode
+                        'lim': 0xe745,
+                        // ...
+                        'matrix2x2': 0xe750
                     },
                     // relativeFontPath: '',
                     templateOptions: {
@@ -103,14 +135,8 @@ module.exports = function(grunt){
                             case 'svg/calendar_clock.svg':
                                 name = 'datetime';
                                 break;
-                            case 'svg/calculator.svg':
-                                name = 'basic';
-                                break;
                             case 'svg/cloud_refresh.svg':
                                 name = 'sync';
-                                break;
-                            case 'svg/dice.svg':
-                                name = 'statistics';
                                 break;
                             case 'svg/document_notebook.svg':
                                 name = 'summary';
@@ -179,13 +205,13 @@ module.exports = function(grunt){
                                 name = 'star-o';
                                 break;
                             case 'svg/text_field.svg':
-                                name = 'textbox';
+                                name = 'field';
                                 break;
                             case 'svg/trophy.svg':
                                 name = 'score';
                                 break;
                             default: //home, star
-                                name = fileName.replace(/^svg\/(\w+).svg$/, '$1');
+                                name = fileName.replace(/^svg\/([\w\-]+).svg$/, '$1');
                         }
                         console.log(fileName + '-->' + name);
                         return name;
