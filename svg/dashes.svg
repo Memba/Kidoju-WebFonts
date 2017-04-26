@@ -1,0 +1,25 @@
+<svg id="dashes" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>dashes</title>
+  <g>
+    <line x1="76.5" y1="853.33" x2="166.5" y2="853.33" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 40px"/>
+    <line x1="281.67" y1="853.33" x2="799.92" y2="853.33" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 40px;stroke-dasharray: 172.75,115.16666412353516"/>
+    <line x1="857.5" y1="853.33" x2="947.5" y2="853.33" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 40px"/>
+  </g>
+  <g>
+    <line x1="76.5" y1="683" x2="136.5" y2="683" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 40px"/>
+    <line x1="243.79" y1="683" x2="833.86" y2="683" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 40px;stroke-dasharray: 107.28571319580078,107.28571319580078"/>
+    <line x1="887.5" y1="683" x2="947.5" y2="683" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 40px"/>
+  </g>
+  <g>
+    <line x1="76.5" y1="512" x2="136.5" y2="512" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 40px"/>
+    <line x1="204.77" y1="512" x2="261.67" y2="512" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 40px;stroke-dasharray: 22.75757598876953,68.2727279663086"/>
+    <line x1="295.8" y1="512" x2="853.36" y2="512" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 40px;stroke-dasharray: 136.5454559326172,68.2727279663086,22.75757598876953,68.2727279663086"/>
+    <line x1="887.5" y1="512" x2="947.5" y2="512" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 40px"/>
+  </g>
+  <g>
+    <line x1="76.5" y1="341.33" x2="106.5" y2="341.33" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 40px"/>
+    <line x1="168.88" y1="341.33" x2="886.31" y2="341.33" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 40px;stroke-dasharray: 62.38461685180664,62.38461685180664"/>
+    <line x1="917.5" y1="341.33" x2="947.5" y2="341.33" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 40px"/>
+  </g>
+  <line x1="76.5" y1="170.67" x2="947.5" y2="170.67" style="stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 40px"/>
+</svg>

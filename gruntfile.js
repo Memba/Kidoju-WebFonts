@@ -115,7 +115,11 @@ module.exports = function(grunt){
                         'prod': 0xe744, // TODO standard unicode
                         'lim': 0xe745,
                         // ...
-                        'matrix2x2': 0xe750
+                        'matrix2x2': 0xe750,
+                        // Vector drawing
+                        cursor: 0xe800,
+                        width: 0xe801,
+                        dashes: 0xe802
                     },
                     // relativeFontPath: '',
                     templateOptions: {

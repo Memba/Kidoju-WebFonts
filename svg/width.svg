@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>width</title>
+  <g id="width">
+    <rect x="71" y="126.8" width="882" height="30" rx="15" ry="15" style="stroke: #000;stroke-miterlimit: 10"/>
+    <rect x="71" y="283.6" width="882" height="60" rx="20" ry="20" style="stroke: #000;stroke-miterlimit: 10"/>
+    <rect x="71" y="470.4" width="882" height="120" rx="30" ry="30" style="stroke: #000;stroke-miterlimit: 10"/>
+    <rect x="71" y="717.2" width="882" height="180" rx="30" ry="30" style="stroke: #000;stroke-miterlimit: 10"/>
+  </g>
+</svg>
