@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>widehat</title>
+  <g id="widehat">
+    <path d="M262,452.15v500H762v-500Zm440,440H322v-380H702Z"/>
+    <g>
+      <rect x="135.3" y="210.21" width="407.25" height="62.16" transform="translate(-70.04 164.9) rotate(-24.87)"/>
+      <rect x="478.73" y="210.9" width="410.1" height="62.16" transform="translate(1202.4 749.07) rotate(-155.13)"/>
+    </g>
+  </g>
+</svg>

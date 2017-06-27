@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024"><title>pow</title><g id="pow"><path d="M898,126V370H654V126H898m60-60H594V430H958V66Z"/><rect x="66" y="458" width="500" height="500"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>pow</title>
+  <g id="pow">
+    <path d="M898,126V370H654V126H898m60-60H594V430H958V66Z"/>
+    <rect x="66" y="458" width="500" height="500"/>
+  </g>
+</svg>

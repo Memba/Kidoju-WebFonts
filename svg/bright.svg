@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>bright</title>
+  <g id="bright">
+    <rect x="262" y="262" width="500" height="500"/>
+    <path d="M933.69,903.88H770.26v-53h98.41V173.12H770.26v-53H933.69Z"/>
+  </g>
+  <g id="bleft">
+    <text transform="translate(13 -353.21)" style="font-size: 912px;font-family: SegoeUISymbol, Segoe UI Symbol">[</text>
+  </g>
+</svg>

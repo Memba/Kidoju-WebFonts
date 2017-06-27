@@ -38,14 +38,14 @@ module.exports = function(grunt){
                          * UNICODE match
                          **********************************************/
                         // MathInput - http://xahlee.info/comp/unicode_math_operators.html
-                        'left-par': 0x0028,
-                        'right-par': 0x0029,
-                        'left-sb': 0x005b,
-                        'right-sb': 0x005d,
-                        'left-cb': 0x007b,
-                        'right-cb': 0x007d,
-                        'left-vl': 0x009b, // <-- wrong
-                        'right-vl': 0x009d,
+                        'pleft': 0x0028,
+                        'pright': 0x0029,
+                        'bleft': 0x005b,
+                        'bright': 0x005d,
+                        'cleft': 0x007b,
+                        'cright': 0x007d,
+                        'vleft': 0x009b, // <-- wrong but follows previous pattern
+                        'vright': 0x009d,
                         'pm': 0x00b1, // plusminus
                         'alpha': 0x03b1,
                         'omega-mag': 0x03a9,
@@ -111,11 +111,25 @@ module.exports = function(grunt){
                         'derivative': 0xe740,
                         'partial': 0xe741,
                         'int': 0xe742, // TODO standard unicode
-                        'sum': 0xe743, // TODO standard unicode
-                        'prod': 0xe744, // TODO standard unicode
-                        'lim': 0xe745,
-                        // ...
-                        'matrix2x2': 0xe750,
+                        'oint': 0xe743, // TODO standard unicode
+                        'sum': 0xe744, // TODO standard unicode
+                        'prod': 0xe745, // TODO standard unicode
+                        'lim': 0xe746,
+                        // matrices
+                        'matrix': 0xe750,
+                        'pmatrix': 0xe751,
+                        'bmatrix': 0xe752,
+                        'cmatrix': 0xe753,
+                        'vmatrix': 0xe754,
+                        'vvmatrix': 0xe755,
+                        'column': 0xe756,
+                        'row': 0xe757,
+                        'vector': 0xe758,
+                        'widehat': 0xe759,
+                        // statistics
+                        'factorial': 0xe760,
+                        'binomial': 0xe761,
+                        'overline': 0xe762,
                         // Vector drawing
                         cursor: 0xe800,
                         width: 0xe801,

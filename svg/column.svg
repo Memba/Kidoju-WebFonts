@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>column</title>
+  <g id="column">
+    <rect x="203.59" y="203.34" width="268.59" height="268.59"/>
+    <rect x="202.14" y="552.07" width="268.59" height="268.59"/>
+    <path d="M761.14,263.34V411.93H612.54V263.34H761.14m60-60H552.54V471.93H821.14V203.34Z"/>
+    <path d="M761.14,612.07V760.66H612.54V612.07H761.14m60-60H552.54V820.66H821.14V552.07Z"/>
+  </g>
+</svg>
