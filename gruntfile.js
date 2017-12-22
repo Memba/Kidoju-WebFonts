@@ -68,6 +68,7 @@ module.exports = function(grunt){
                         'settings': 0xe0da,
                         'scan': 0xe0db,
                         'drawer': 0xe300,
+                        'user': 0xe302,
                         'summary': 0xe303,
                         'history': 0xe305,
                         'play': 0xe309,
