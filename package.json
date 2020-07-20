@@ -32,7 +32,7 @@
     "build": "grunt"
   },
   "devDependencies": {
-    "grunt": "^1.1.0",
+    "grunt": "^1.2.1",
     "grunt-webfont": "^1.7.2"
   },
   "engines": {
