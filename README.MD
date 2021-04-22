@@ -58,4 +58,4 @@ has an align tool at the bottom right corner which offers the option to **Align 
 All icons except social sharing icons are licensed from [Incors](http://www.iconexperience.com/o_collection/license/).
 Social sharing icons are licensed from [@iconmonstr](http://iconmonstr.com/license/)
 
-Copyright ©2013-2020 Memba® Sarl. All rights reserved.
+Copyright ©2013-2021 Memba® Sarl. All rights reserved.

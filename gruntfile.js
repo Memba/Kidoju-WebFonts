@@ -1,10 +1,9 @@
 /**
- * Copyright ©2013-2020 Memba® Sarl. All rights reserved.
+ * Copyright ©2013-2021 Memba® Sarl. All rights reserved.
  * Sources at https://github.com/Memba
  */
 
-/* jslint node: true */
-/* jshint node: true */
+/* eslint-env node */
 
 'use strict';
 
@@ -23,7 +22,7 @@ module.exports = function(grunt){
                 src: 'svg/*.svg',
                 dest: 'dist/fonts',
                 options: {
-                    font: 'kidoju',
+                    font: 'memba',
                     autoHint: false, // https://github.com/sapegin/grunt-webfont/issues/329#issuecomment-215626139
                     hashes: false, // Do not add random string at the end of the font file names (used to avoid caching when changing version)
                     stylesheet: 'less',
@@ -62,7 +61,7 @@ module.exports = function(grunt){
                         /**********************************************
                          * UNICODE custom
                          **********************************************/
-                        // Kidoju-WebApp and Kidoju-Mobile
+                        // Memba-WebApp and Memba-SmartQuiz
                         'home': 0xe0dd,
                         'search': 0xe0e9,
                         'settings': 0xe0da,
