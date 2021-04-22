@@ -1,10 +1,10 @@
-# Kidoju Web Fonts
+# Memba Web Fonts
 
-[![devDependency Status](https://david-dm.org/Memba/Kidoju-WebFonts/dev-status.svg)](https://david-dm.org/Memba/Kidoju-WebFonts#info=devDependencies)
+[![devDependency Status](https://david-dm.org/Memba/Memba-WebFonts/dev-status.svg)](https://david-dm.org/Memba/Memba-WebFonts#info=devDependencies)
 
->  Some icons we needed for the Kidoju platform.
+>  Some icons we needed for the Memba platform.
 
-## Why Kidoju Web Fonts?
+## Why Memba Web Fonts?
 
 - Because of high density (retina) displays, we have decided to use font icons for all small monochrome icons displayed in menus and buttons (we use SVG otherwise);
 - At some point we were loading [bootstrap glyphicons](http://getbootstrap.com/components/#glyphicons) and [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
